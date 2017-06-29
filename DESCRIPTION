@@ -1,0 +1,35 @@
+Toolbox: MQTT_MODULE
+
+Title: MQTT MODULE for Scilab
+
+Summary: A MQTT client module for Scilab 
+
+Version: 0.1.0
+
+Author: Tan Chin Luh
+
+Maintainer: Tan Chin Luh <kailup4@hotmail.com>
+
+// Categories that this toolbox belongs to.
+// The toolbox will appear in the Scilab Atoms GUI
+// under the categories that you select here.
+Category:  Instruments Control
+ Real-Time
+
+Entity: Trity Technologies 
+
+WebSite: http://www.tritytech.com
+
+License: GPL 2.0
+
+ScilabVersion: >= 6.0
+
+Depends: 
+
+Date: 2017-06-28
+
+Description: This toolbox allows the user to communicate with MQTT broker/server from Scilab
+
+
+
+
