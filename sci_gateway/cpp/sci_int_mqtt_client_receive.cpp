@@ -74,6 +74,7 @@ int test1_sendAndReceive(MQTTClient c, int qos, char* test_topic)
 		sciprint("is %.*s.\n",  m->payloadlen, (char*)(m->payload));
 		payloadptr = NULL;
 		payloadptr = (char*)(m->payload);
+		*(payloadptr+m->payloadlen) = '\0';
 		//data = *payloadptr;
 		MQTTClient_free(topicName);
 		MQTTClient_freeMessage(&m);
